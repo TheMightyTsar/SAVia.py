@@ -1,0 +1,21 @@
+```Python
+Deseas la SAViduria de la Python?
+inicia tu mensaje con "oh savia "
+----------------------------- 
+si quieres saber de documentacion, o como se ocupa un comando(s)
+---->"oh savia info ComandoSinEspacios" #no importa mayusculas o minisculas
+ ---------------------------
+te sale un error y no sabes que significa?
+---->"oh savia error texto de la consola de error" #falta ver como filtrar esto
+#por trabajar#
+----------------------------
+dudas comunes o preguntas? ve si alguien a subido una solucion de tu pregunta o similar
+---->"oh savia ? pregunta" #sistema estilo Push de respuestas
+#por trabajar!!!
+.
+.
+.
+quieres saber que aspectos tenemos cubiertos?
+--->"oh savia list"
+```
+*---

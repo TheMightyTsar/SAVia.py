@@ -1,0 +1,47 @@
+IF** if<>:**
+```python
+if <cond 1> :
+    <codigo si se cumple cond 1>
+    if <cond 1.1 > :
+        <codigo si se cumple 1.1 >
+```
+**if** se ocupa para analizar una condicion, si esta se cumple, se ejecutara el codigo identado que se encuentre bajo el bloque **If**
+**if** es la hermana de **elif** (no la de la telenovela turca) y **else**
+----
+
+FORINRANGE**for x in range(,)**
+```python
+For i in range(a,b): #a y b numeros int cualquiera
+    <condicion que se loopea (b-a-1) veces>
+    <i toma valores de a hasta b-1>
+<codigo que no se loopea>```
+**for in range** nos permite crear ciclos con duracion definida, al mismo tiempo que nos otorgan una variable que aumenta su valor en cada iteracion del mismo
+existen variaciones de este comando: for x in [lista] y for x in "string"
+!!!es una funcion compuesta, in , es su propia funcion
+----
+ELSE**else:**
+```python
+if <cond 1> :
+    <codigo si se cumple cond 1>
+elif<condicion2>:
+    <codigo que se ejecuta si cumple condicion2 y no la condicion1>
+else:
+    <codigo que se ejecuta si NO se cumple la condicion1 ni condicion2>
+```
+**else** se puede ocupar despues de un **if** o un **elif**, ejecutara el codigo identado bajo suyo.
+**else** ocurrira solo si la condicion(es) arriba suyo (if, elif) son falsas (no ocurren)
+----
+ELIF**elif<>:**
+```python
+#insistimos que no tiene relacion con Elif de la telenovela
+if <condicion1>:
+    <codigo que se ejecuta si cumple condicion1>
+elif<condicion2>:
+    <codigo que se ejecuta si cumple condicion2 y no la condicion1>
+elif<condicion3>:
+    <codigo que se ejecuta si cumple condicion3 y no la condicion2 ni condicion1>
+#se pueden poner cuantos elif quieras, tendran la misma logica
+```
+**elif** se ocupa para analizar una condicion, si esta se cumple, se ejecutara el codigo identado que se encuentre bajo el bloque **elif**
+si se cumple en este caso al condicion1, se ignoran los elif que se encuentran abajo, lo mismo con condicion2 o 3.
+----
